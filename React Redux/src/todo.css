@@ -1,0 +1,93 @@
+.totoWrap {
+    width: 400px;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.todo-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.todo-input button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    background: #4cafef;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    color: #222;
+    margin: 0;
+}
+
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-list li input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.todo-list li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo-list button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    font-size: 14px;
+    background: #222;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo-list button:hover {
+    background: #bbb;
+}
+
+/* .todo-list button {
+    padding: 0;
+    margin: 0;
+} */
+
+.filters {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filters button {
+    padding: 5px 10px;
+    border: none;
+    background: #383838;
+    cursor: pointer;
+}
+
+.filters .active {
+    background: #4cafef;
+    color: white;
+}
